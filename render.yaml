@@ -1,0 +1,21 @@
+# Exported from Render on 2024-05-30T01:41:15Z
+services:
+- type: web
+  name: watchtower
+  runtime: image
+  image:
+    url: docker.io/containrrr/watchtower:latest
+  plan: free
+  region: oregon
+version: "1"
+
+# Exported from Render on 2024-05-30T01:54:31Z
+services:
+- type: web
+  name: sample-website
+  runtime: image
+  image:
+    url: docker.io/japanpatel0305/sample-website:latest
+  plan: free
+  region: oregon
+version: "1"
