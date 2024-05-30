@@ -7,10 +7,10 @@ services:
     url: docker.io/containrrr/watchtower:latest
   plan: free
   region: oregon
-version: "1"
+
 
 # Exported from Render on 2024-05-30T01:54:31Z
-services:
+
 - type: web
   name: sample-website
   runtime: image
